@@ -1,0 +1,9 @@
+#!/usr/local/opt/python@3.8/bin/python3
+
+import sys
+from os.path import dirname
+sys.path.append(dirname(__file__) + "/../")
+
+from solutions import cli
+
+cli.run()
